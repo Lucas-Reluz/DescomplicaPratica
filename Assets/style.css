@@ -67,7 +67,7 @@
     font-family: system-ui, sans-serif;
     perspective: 1500px;
     background: linear-gradient(white, #efefef);
-    overflow: hidden; /* Evita que as estrelas apareçam fora da área visível */
+    overflow: hidden; 
   }
   
   @keyframes stars {
@@ -83,22 +83,22 @@
     font-family: system-ui, sans-serif;
     perspective: 1500px;
     background: linear-gradient(white, #efefef);
-    overflow: hidden; /* Evita que as estrelas apareçam fora da área visível */
-    margin: 0; /* Remove margens padrão do body */
+    overflow: hidden; 
+    margin: 0; 
   }
   
   .stars {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw; /* Largura igual à largura da janela */
-    height: 100vh; /* Altura igual à altura da janela */
-    z-index: -1; /* Coloca as estrelas atrás do conteúdo */
-    pointer-events: none; /* As estrelas não interferem com a interação do usuário */
+    width: 100vw; 
+    height: 100vh; 
+    z-index: -1; 
+    pointer-events: none; 
     background-image: url(https://yt3.googleusercontent.com/5TjlI6nK7bU8ZORSy8q7ODI0pcdcvN7Vn7-lqnhO-AlscJgTL0GGyVtNdvFCvMIv5wKfeMdRyQ=s900-c-k-c0x00ffffff-no-rj);
-    background-size: 100px 100px; /* Tamanho da estrela */
-    animation: stars 30s linear infinite; /* Animação das estrelas */
-    opacity: 0.3; /* Opacidade das estrelas */
+    background-size: 100px 100px; 
+    animation: stars 30s linear infinite; 
+    opacity: 0.3; 
   }
   
   
